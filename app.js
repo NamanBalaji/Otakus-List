@@ -6,7 +6,7 @@ const PORT = process.env.PORT||5000;
 const authRoutes = require('./routes/auth');
 const animeRoutes = require('./routes/anime');
 app.use(express.json());
-mongoose.connect(MONGOURI, {useNewUrlParser: true,useUnifiedTopology: true,useCreateIndex: true, useFindAndModify: false});
+mongoose.connect("mongodb+srv://namanbalaji:otakuslist@cluster0.c0hyf.mongodb.net/otakulistDb", {useNewUrlParser: true,useUnifiedTopology: true,useCreateIndex: true, useFindAndModify: false});
 
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
