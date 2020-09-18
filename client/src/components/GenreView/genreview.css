@@ -1,0 +1,19 @@
+.heading{
+    text-align: center;
+    justify-content: center;
+}
+.fixer{
+    max-width: 40% !important;
+    cursor: pointer !important;
+}
+.heading{
+    text-align: center;
+    justify-content: center;
+}
+
+.button{
+    background-color: #b71c1c;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    font-size:17px;
+}

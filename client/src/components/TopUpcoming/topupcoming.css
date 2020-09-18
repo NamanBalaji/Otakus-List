@@ -1,0 +1,14 @@
+.box{
+    background-color: #b71c1c;
+}
+.fixer{
+    max-width: 40% !important;
+    cursor: pointer !important;
+}
+.heading{
+    text-align: center;
+    justify-content: center;
+}
+.image{
+    object-fit: contain;
+}
